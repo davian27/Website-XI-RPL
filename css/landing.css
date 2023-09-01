@@ -1,0 +1,162 @@
+@import url('https://fonts.googleapis.com/css2?family=Handjet:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fugaz+One&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Handjet', cursive;
+    scroll-behavior: smooth;
+}
+
+/*Header Section*/
+ header h2{
+    text-align: center;
+    margin-top: 26rem;
+    color: rgb(255, 255, 255);
+    font-size: 75px;
+    font-family: 'Fugas One',cursive;
+ }
+h4{
+    text-align: center;
+    color : white;
+    font-size: 50px;
+    font-family: 'Fugas One',cursive;
+}
+
+/*Content Section*/
+#about p{
+    font-size: 2rem;
+    margin-top: 15px;
+    text-align: center;
+    width:70%;
+    margin-left: 15%;
+
+}
+
+#about h2{
+    margin-top: 10rem;
+    text-align: center;
+    font-size: 40px;
+    color: white;
+}
+
+#siswa h2 {
+    text-align: center;
+    color: white;
+    font-size: 40px;
+    font-family: 'Fugas One',cursive;
+}
+
+/* Parallax Section*/
+#about{
+    height: 100vh;
+    width: 100%;
+    background-image: url('/img/p2.jpg');
+    background-size: cover;
+    display: table;
+    background-attachment: fixed;
+    color: white;
+}
+#siswa{
+    height: 100vh;
+    width: 100%;
+    background-image: url('/img/p3.webp');
+    background-size: cover;
+    display: table;
+    background-attachment: fixed;
+}
+header{
+    height: 100vh;
+    width: 100%;
+    background-image: url('/img/p5.webp');
+    background-size: cover;
+    display: table;
+    background-attachment: fixed;
+}
+
+/*Siswa Flexbox*/
+.flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    justify-content: center;
+    gap: 3rem;
+    
+
+    
+  }
+  
+  .flex-item {
+    padding: 10rem;
+    border-radius: 40px;
+    border: 1px solid #fbfbfb;
+    color: rgb(0, 0, 0);
+    background-color: white;
+    width: calc(30% - 10px);
+  margin-bottom: 20px;
+  } 
+
+  
+  @media only screen and (min-width:768px){
+    .flex-item {
+        display: flex;
+        width: calc(40% - 30px);
+        /* margin-right: 50px; */
+        margin-bottom: 40px;
+        align-items: center;
+    }
+    } 
+    
+    /* @media only screen and (max-width:320px){
+        .flex-container{
+            flex-wrap: wrap;
+            align-items: center;
+            margin-left: 40px;
+            margin-top: 10%;
+        }
+    }
+
+    @media only screen and (min-width:321px) and (max-width:376px){
+        .flex-container{
+            flex-wrap: wrap;
+            align-items: center;
+            margin-left: 5rem;
+            margin-top: 10%;
+        }
+
+    }
+
+    @media only screen and (max-width:426px)and (min-width:400px){
+        .flex-container{
+            flex-wrap: wrap;
+            align-items: center;
+            margin-left: 8rem;
+            margin-top: 20%;
+        }
+
+    } */
+/*     
+     .flex-item {
+       width: 80%; 
+      margin-bottom: 10px;
+    } 
+   */
+   footer {
+    background-color: hsla(0, 0%, 100%, 0);
+    backdrop-filter: blur(100px);
+    text-align: center;
+    padding: 20px 0;
+    font-family: 'Fugas One',cursive;
+  }
+  
+  footer p {
+    font-size: 14px;
+  }
+  footer p1{
+    font-size: 10px;
+  }
+  
