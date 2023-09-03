@@ -86,6 +86,7 @@ header{
     justify-content: space-between;
     justify-content: center;
     gap: 3rem;
+    overflow: auto;
     
 
     
