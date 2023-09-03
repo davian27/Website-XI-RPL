@@ -256,5 +256,22 @@ header{
         margin-right: 25%;
         margin-top: 10rem;
     }
+
+    .navbar .checkbox-navbar ul {
+        flex-direction: column;
+        position: absolute;
+        text-align: center;
+        top: -30rem;
+        padding: 1rem;
+        gap: .5rem;
+        z-index: 999;
+        left: 0;
+        right: 0;
+        height: 0;
+        background-color: hsla(0, 0%, 100%, 0.081);
+        backdrop-filter: blur(15px);
+        height: fit-content;
+        transition: .5s ease-in;
+    }
 }
 
