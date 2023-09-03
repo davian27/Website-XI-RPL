@@ -180,13 +180,12 @@ header{
     }
     
 }
-@media only screen and (max-width:768px){
+@media only screen and (max-width:768px)and (min-width:700px){
     header h2{
         font-size: 5rem;
-        width: 70%;
         text-align: center;
-        margin-left: 10rem;
-        margin-top: 20rem;
+        margin-left: 5rem;
+        margin-top: 5rem;
     }
 
     .navbar .checkbox-navbar ul {
@@ -215,7 +214,8 @@ header{
     header h2{
         font-size: 3.5rem;
         text-align: center;
-        margin-left: 55px;
+        margin-left: 25%;
+        margin-right: 25%;
         margin-top: 10rem;
     }
 
@@ -242,8 +242,21 @@ header{
         font-size: 3.5rem;
         text-align: center;
         margin-left: 5rem;
+        margin-top: 5rem;
+    }
+}
+
+@media only screen and (max-width:600px){
+    header h2{
         margin-top: 10rem;
     }
 }
 
+@media only screen and (max-width:992px){
+    header h2{
+        margin-left: 25%;
+        margin-right: 25%;
+        margin-top: 10rem;
+    }
+}
 
