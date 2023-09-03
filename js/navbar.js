@@ -43,11 +43,6 @@ window.addEventListener('scroll', function() {
       });
     });
     
-    window.addEventListener('DOMContentLoaded', () => {
-      const navbar = document.getElementById('navbar');
-      const navLinks = navbar.querySelectorAll('a[href^="#"]');
-      const sections = document.querySelectorAll('section');
-    
       // Tambahkan kelas 'active' pada tautan navigasi '#home'
       navLinks.forEach(link => {
         if (link.getAttribute('href') === '#home') {
@@ -83,5 +78,4 @@ window.addEventListener('scroll', function() {
           hamburgerCheckbox.checked = false;
         }
       });
-    });
     
