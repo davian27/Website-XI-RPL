@@ -100,6 +100,7 @@ header{
     background-color: white;
     width: calc(30% - 10px);
   margin-bottom: 20px;
+  overflow: auto;
   } 
 
   
